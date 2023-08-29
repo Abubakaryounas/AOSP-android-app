@@ -1,0 +1,1 @@
+include ':app', ':common', ':colorpicker', ':photoviewer', ':chips', ':libphonenumber', ':vcard', ':android-4.1.1.4'
