@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml:16:1-18:12
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml:16:1-18:12
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml:16:1-18:12
+	package
+		ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml:16:11-44
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml:16:1-18:12
+uses-sdk
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml
+		ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml
+		ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/colorpicker/AndroidManifest.xml

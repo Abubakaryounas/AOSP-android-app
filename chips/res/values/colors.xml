@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <color name="chips_dropdown_background_activated">#4285f4</color>
+    <color name="chips_dropdown_background_pressed">#ededed</color>
+
+    <color name="autocomplete_divider_color">#cccccc</color>
+    <color name="autocomplete_bottom_shadow_start">#40000000</color>
+
+    <color name="chip_background">#F8F6F2</color>
+    <color name="chip_background_invalid">#F8F6F2</color>
+
+    <color name="chips_dropdown_text_default">#212121</color>
+    <color name="chips_dropdown_text_activated">@android:color/white</color>
+    <color name="chips_dropdown_text_highlighted">#757575</color>
+    <color name="chips_dropdown_permission_text">#4285f4</color>
+
+
+    <color name="primary_text_color">#514D4A</color>
+    <color name="secondary_text_color">#918B88</color>
+    <color name="main_bg">#F8F6F2</color>
+
+    <color name="color_line">#D6D1CA</color>
+    <color name="white">#ffffff</color>
+    <color name="dark">#f5f5f5</color>
+    <color name="conv_backgroung">#eeeeee</color>
+    <color name="strip_color">#dddddd</color>
+    <color name="black">#212121</color>
+    <color name="colorSecondaryText">#918B88</color>
+    <color name="dark_two">#eeeeee</color>
+    <color name="colorPrimaryThird">#918B88</color>
+    <color name="divider">#D6D1CA</color>
+    <color name="grey">#eeeeee</color>
+
+
+    <!--        //sharedLibData-->
+    <!-- Mock Up Light Theme (Default) v3 -->
+    <color name="colorLightV3Bg">#F8F6F2</color>
+    <color name="colorLightV3PrimaryText">#514D4A</color>
+    <color name="colorLightV3SecondaryText">#918B88</color>
+    <color name="colorLightV3Line">#D6D1CA</color>
+
+    <!-- Mock Up Light Theme (Default) -->
+    <color name="colorLightBg">#F8F6F2</color>
+    <color name="colorLightPrimary">#514D4A</color>
+    <color name="colorLightSecondary">#99544444</color>
+    <color name="colorLightDisabled">#66544444</color>
+
+</resources>

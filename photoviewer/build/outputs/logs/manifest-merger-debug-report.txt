@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml:18:1-25:12
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml:18:1-25:12
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml:18:1-25:12
+	package
+		ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml:19:5-35
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml:18:11-69
+	android:versionCode
+		ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml:20:5-28
+application
+ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml:23:5-24:11
+uses-sdk
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
+INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
+		ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
+		ADDED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
+		INJECTED from /home/abubakar-admin/AndroidStudioProjects/TechlessApps/Messaging/photoviewer/AndroidManifest.xml
