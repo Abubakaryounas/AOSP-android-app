@@ -1,0 +1,31 @@
+import org.gradle.api.artifacts.Dependency;
+
+apply plugin: 'com.android.library'
+
+android {
+    sourceSets.main {
+        manifest.srcFile 'AndroidManifest.xml'
+        java.srcDirs = ['src']
+        res.srcDirs = ['res']
+    }
+    compileSdk 33
+    defaultConfig {
+        minSdkVersion 26
+        targetSdkVersion 30
+    }
+}
+
+dependencies {
+    /*implementation findDependency(':support-v4', 'com.android.support:support-v4:23.3.+')*/
+    implementation 'androidx.annotation:annotation:1.6.0'
+    implementation 'androidx.core:core:1.10.0'
+    implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'
+}
+
+Dependency findDependency(String projectName, String moduleName) {
+    if (findProject(projectName) != null) {
+        return dependencies.project(path: projectName)
+    }
+
+    return dependencies.create(moduleName)
+}

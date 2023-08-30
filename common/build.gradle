@@ -1,0 +1,22 @@
+apply plugin: 'com.android.library'
+/*apply plugin: 'logtags'*/
+
+android {
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['java']
+            /*logtags.srcDirs = ['java']*/
+        }
+    }
+
+    compileSdk 33
+    defaultConfig {
+        minSdkVersion 26
+        targetSdkVersion 30
+    }
+
+    lint {
+        abortOnError false
+    }
+}

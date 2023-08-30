@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+dependencies {
+    implementation project(path: ':android-4.1.1.4')
+}
+
+
+sourceSets {
+    main {
+        java.srcDirs = ['java']
+    }
+    java {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+}
+
