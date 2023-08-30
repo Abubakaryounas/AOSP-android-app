@@ -15,7 +15,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.android.messaging"
+        applicationId "com.messaging.techless"
         minSdkVersion 26
         targetSdkVersion 30
         versionCode = buildNumber

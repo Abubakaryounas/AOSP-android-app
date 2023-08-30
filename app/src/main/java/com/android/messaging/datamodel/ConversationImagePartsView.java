@@ -59,7 +59,7 @@ public class ConversationImagePartsView {
             + " as " + Columns.STATUS + " "
 
             + " FROM " + DatabaseHelper.MESSAGES_TABLE + " LEFT JOIN " + DatabaseHelper.PARTS_TABLE
-            + " ON (" + DatabaseHelper.MESSAGES_TABLE + "app/src/main/java/android/support/v7" + MessageColumns._ID
+            + " ON (" + DatabaseHelper.MESSAGES_TABLE + "." + MessageColumns._ID
             + "=" + DatabaseHelper.PARTS_TABLE + "." + PartColumns.MESSAGE_ID + ") "
             + " LEFT JOIN " + DatabaseHelper.PARTICIPANTS_TABLE + " ON ("
             + DatabaseHelper.MESSAGES_TABLE + '.' +  MessageColumns.SENDER_PARTICIPANT_ID

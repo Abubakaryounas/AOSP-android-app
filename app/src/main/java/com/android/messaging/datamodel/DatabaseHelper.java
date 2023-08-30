@@ -367,7 +367,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             + " BEGIN UPDATE " + PARTS_TABLE
             + " SET " + PartColumns.TIMESTAMP + "="
             + " (SELECT received_timestamp FROM " + MESSAGES_TABLE + " WHERE " + MESSAGES_TABLE
-            + "app/src/main/java/android/support/v7" + MessageColumns._ID + "=" + "NEW." + PartColumns.MESSAGE_ID + ")"
+            + "." + MessageColumns._ID + "=" + "NEW." + PartColumns.MESSAGE_ID + ")"
             + " WHERE " + PARTS_TABLE + "." + PartColumns._ID + "=" + "NEW." + PartColumns._ID
             + "; END";
 
@@ -375,7 +375,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             "CREATE TRIGGER " + MESSAGES_TABLE + "_TRIGGER" + " AFTER UPDATE OF "
             + MessageColumns.RECEIVED_TIMESTAMP + " ON " + MESSAGES_TABLE
             + " FOR EACH ROW BEGIN UPDATE " + PARTS_TABLE + " SET " + PartColumns.TIMESTAMP
-            + " = NEW." + MessageColumns.RECEIVED_TIMESTAMP + " WHERE " + PARTS_TABLE + "app/src/main/java/android/support/v7"
+            + " = NEW." + MessageColumns.RECEIVED_TIMESTAMP + " WHERE " + PARTS_TABLE + "."
             + PartColumns.MESSAGE_ID + " = NEW." + MessageColumns._ID
             + "; END;";
 
@@ -525,7 +525,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             + MESSAGES_TABLE + '.' + MessageColumns.CONVERSATION_ID
             + " as " + MessageColumns.CONVERSATION_ID + " "
             + " FROM " + MESSAGES_TABLE + " LEFT JOIN " + PARTS_TABLE + " ON ("
-            + MESSAGES_TABLE + "app/src/main/java/android/support/v7" + MessageColumns._ID
+            + MESSAGES_TABLE + "." + MessageColumns._ID
             + "=" + PARTS_TABLE + "." + PartColumns.MESSAGE_ID + ")"
             // Exclude draft messages from main view
             + " WHERE " + MESSAGES_TABLE + "." + MessageColumns.STATUS
